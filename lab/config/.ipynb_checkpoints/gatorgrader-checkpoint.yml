@@ -9,9 +9,9 @@ Week 03 - Lab - The Mega Move.ipynb:
     MatchFileFragment --fragment "input(" --count 3 --exact
     MatchFileFragment --fragment "while" --count 2
     MatchFileFragment --fragment "box = []" --count 1 --exact
-    MatchFileFragment --fragment "[-1]" --count 2
+    MatchFileFragment --fragment "[-1]" --count 1
     MatchFileFragment --fragment "box.append(" --count 1 --exact
-    MatchFileFragment --fragment "del(" --count 1 --exact
+    MatchFileFragment --fragment "box.remove(" --count 1 --exact
 
 reflection.md:
     ConfirmFileExists
