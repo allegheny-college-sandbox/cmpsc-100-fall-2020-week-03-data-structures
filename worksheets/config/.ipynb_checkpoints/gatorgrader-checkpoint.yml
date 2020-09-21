@@ -12,6 +12,7 @@ Week 03 - Worksheet 0 - Syntax - Data structures (lists).ipynb:
     MatchFileFragment --fragment "store_items = [" --count 1 --exact
     MatchFileFragment --fragment "store_items.index(" --count 5
     MatchFileFragment --fragment "basket.index(" --count 1
+    MatchFileFragment --fragment "store_items.remove(" --count 5
 
 Week 03 - Worksheet 1 - Syntax - Data structures (tuples lists and slices).ipynb:
     ConfirmFileExists
